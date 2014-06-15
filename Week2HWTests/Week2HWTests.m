@@ -1,0 +1,34 @@
+//
+//  Week2HWTests.m
+//  Week2HWTests
+//
+//  Created by Yaron Sole on 6/15/14.
+//  Copyright (c) 2014 codepath. All rights reserved.
+//
+
+#import <XCTest/XCTest.h>
+
+@interface Week2HWTests : XCTestCase
+
+@end
+
+@implementation Week2HWTests
+
+- (void)setUp
+{
+    [super setUp];
+    // Put setup code here. This method is called before the invocation of each test method in the class.
+}
+
+- (void)tearDown
+{
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [super tearDown];
+}
+
+- (void)testExample
+{
+    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+}
+
+@end
