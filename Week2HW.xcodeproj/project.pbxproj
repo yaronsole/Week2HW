@@ -19,6 +19,10 @@
 		FDC56547194E46590063D74C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC5652F194E46590063D74C /* UIKit.framework */; };
 		FDC5654F194E46590063D74C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDC5654D194E46590063D74C /* InfoPlist.strings */; };
 		FDC56551194E46590063D74C /* Week2HWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC56550194E46590063D74C /* Week2HWTests.m */; };
+		FDC5655D194E46AD0063D74C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC5655B194E46AD0063D74C /* MainViewController.m */; };
+		FDC5655E194E46AD0063D74C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDC5655C194E46AD0063D74C /* MainViewController.xib */; };
+		FDC56562194E46C10063D74C /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC56560194E46C10063D74C /* FeedViewController.m */; };
+		FDC56563194E46C10063D74C /* FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDC56561194E46C10063D74C /* FeedViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		FDC5654C194E46590063D74C /* Week2HWTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week2HWTests-Info.plist"; sourceTree = "<group>"; };
 		FDC5654E194E46590063D74C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FDC56550194E46590063D74C /* Week2HWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week2HWTests.m; sourceTree = "<group>"; };
+		FDC5655A194E46AD0063D74C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FDC5655B194E46AD0063D74C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FDC5655C194E46AD0063D74C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		FDC5655F194E46C10063D74C /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		FDC56560194E46C10063D74C /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		FDC56561194E46C10063D74C /* FeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,12 @@
 				FDC5653B194E46590063D74C /* AppDelegate.m */,
 				FDC5653D194E46590063D74C /* Images.xcassets */,
 				FDC56532194E46590063D74C /* Supporting Files */,
+				FDC5655A194E46AD0063D74C /* MainViewController.h */,
+				FDC5655B194E46AD0063D74C /* MainViewController.m */,
+				FDC5655C194E46AD0063D74C /* MainViewController.xib */,
+				FDC5655F194E46C10063D74C /* FeedViewController.h */,
+				FDC56560194E46C10063D74C /* FeedViewController.m */,
+				FDC56561194E46C10063D74C /* FeedViewController.xib */,
 			);
 			path = Week2HW;
 			sourceTree = "<group>";
@@ -220,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDC56536194E46590063D74C /* InfoPlist.strings in Resources */,
+				FDC5655E194E46AD0063D74C /* MainViewController.xib in Resources */,
+				FDC56563194E46C10063D74C /* FeedViewController.xib in Resources */,
 				FDC5653E194E46590063D74C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDC5653C194E46590063D74C /* AppDelegate.m in Sources */,
+				FDC5655D194E46AD0063D74C /* MainViewController.m in Sources */,
+				FDC56562194E46C10063D74C /* FeedViewController.m in Sources */,
 				FDC56538194E46590063D74C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
